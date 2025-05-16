@@ -39,26 +39,21 @@ cd DocuQuery
 ```
 ### 2. Create & Activate Virtual Environment
 ```bash
-Copy
-Edit
 python3 -m venv venv
 source venv/bin/activate  # Windows: venv\Scripts\activate
 ```
 
 ### 3. Install Dependencies
 ```bash
-Copy
-Edit
 pip install -r requirements.txt
-4. Run the App
-bash
-Copy
-Edit
+```
+
+### 4. Run the App
+```bash
 streamlit run app.py
-📁 Project Structure
-bash
-Copy
-Edit
+```
+### 📁 Project Structure
+```bash
 DocuQuery/
 │
 ├── app.py                      # Main Streamlit app
@@ -72,7 +67,8 @@ DocuQuery/
 │   ├── qa_engine.py            # Vector store & QA logic
 │   ├── file_handler.py         # File parsing methods
 │   └── auth.py                 # Auth functions
-🌐 Deployment Guide
+```
+### 🌐 Deployment Guide
 Deploy to Streamlit Cloud (Free)
 Push your project to GitHub
 
