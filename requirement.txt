@@ -1,0 +1,10 @@
+streamlit
+langchain
+sentence-transformers
+pdfplumber
+python-docx
+huggingface-hub
+spacy
+spacy-transformers
+python-dotenv
+streamlit-oauth

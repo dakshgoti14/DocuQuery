@@ -1,0 +1,12 @@
+import spacy
+
+nlp = spacy.load("en_core_web_sm")
+
+def extract_entities(text):
+    if not text or not isinstance(text, str):
+        return {"error": "No valid text provided for NER extraction."}
+    
+    doc = nlp(text)
+    entities = [(ent.text, ent.label_) for ent in doc.ents]
+    return entities
+
