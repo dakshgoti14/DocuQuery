@@ -52,6 +52,8 @@ pip install -r requirements.txt
 ```bash
 streamlit run app.py
 ```
+---
+
 ### 📁 Project Structure
 ```bash
 DocuQuery/
@@ -70,15 +72,11 @@ DocuQuery/
 ```
 ### 🌐 Deployment Guide
 #### Deploy to Streamlit Cloud (Free)
-Push your project to GitHub
-
-Go to https://streamlit.io/cloud
-
-Click "New App" → Select your GitHub repo and branch
-
-Set app.py as the entry file
-
-Click Deploy
+  - 1. Push your project to GitHub
+  - 2. Go to https://streamlit.io/cloud
+  - 3. Click "New App" → Select your GitHub repo and branch
+  - 4. Set app.py as the entry file
+  - 5. Click Deploy
 
 ⚠️ Important: Do NOT commit your venv/ folder. It should be excluded via .gitignore.
 
