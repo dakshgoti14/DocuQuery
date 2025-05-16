@@ -15,7 +15,7 @@ DocuQuery is an AI-powered chatbot that allows users to interact with documents 
 - 📊 Select between LLM models (LLaMA, Bart, etc.)  
 - 🎨 Clean ChatGPT-like user interface
 
----
+----
 
 ## 🧰 Tech Stack
 
@@ -27,7 +27,7 @@ DocuQuery is an AI-powered chatbot that allows users to interact with documents 
 - **Auth**: Basic JSON file-based  
 - **Deployment**: Streamlit Cloud / Local
 
----
+----
 
 ## ⚙️ Installation
 
@@ -70,6 +70,8 @@ DocuQuery/
 │   ├── file_handler.py         # File parsing methods
 │   └── auth.py                 # Auth functions
 ```
+----
+
 ### 🌐 Deployment Guide
 #### Deploy to Streamlit Cloud (Free)
   - 1. Push your project to GitHub
