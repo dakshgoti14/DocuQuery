@@ -36,3 +36,119 @@ DocuQuery is an AI-powered chatbot that allows users to interact with documents 
 ```bash
 git clone https://github.com/dakshgoti14/DocuQuery.git
 cd DocuQuery
+2. Create & Activate Virtual Environment
+bash
+Copy
+Edit
+python3 -m venv venv
+source venv/bin/activate  # Windows: venv\Scripts\activate
+3. Install Dependencies
+bash
+Copy
+Edit
+pip install -r requirements.txt
+4. Run the App
+bash
+Copy
+Edit
+streamlit run app.py
+📁 Project Structure
+bash
+Copy
+Edit
+DocuQuery/
+│
+├── app.py                      # Main Streamlit app
+├── requirements.txt
+├── README.md
+├── data/
+│   └── users.json              # User credentials
+├── utils/
+│   ├── summarizer.py           # Document summarization logic
+│   ├── ner.py                  # Named entity recognition
+│   ├── qa_engine.py            # Vector store & QA logic
+│   ├── file_handler.py         # File parsing methods
+│   └── auth.py                 # Auth functions
+🌐 Deployment Guide
+Deploy to Streamlit Cloud (Free)
+Push your project to GitHub
+
+Go to https://streamlit.io/cloud
+
+Click "New App" → Select your GitHub repo and branch
+
+Set app.py as the entry file
+
+Click Deploy
+
+⚠️ Important: Do NOT commit your venv/ folder. It should be excluded via .gitignore.
+
+🛠 Tips for GitHub
+If you get this error:
+
+arduino
+Copy
+Edit
+remote: error: File ... exceeds GitHub’s file size limit
+Run:
+
+bash
+Copy
+Edit
+git rm -r --cached venv/
+echo "venv/" >> .gitignore
+Then recommit and push:
+
+bash
+Copy
+Edit
+git add .
+git commit -m "Clean up venv"
+git push origin main
+📌 Future Roadmap
+🌍 OAuth or Google login
+
+🧾 Multi-document support
+
+📤 Export chat history
+
+🧠 Add support for OpenAI, Claude, Mistral
+
+🖼️ Document content visualization
+
+🤝 Contributing
+Fork this repo
+
+Create a new branch (git checkout -b feature-name)
+
+Make your changes
+
+Commit and push (git push origin feature-name)
+
+Open a pull request
+
+📄 License
+MIT License – free to use and modify for personal or commercial use.
+
+👨‍💻 Author
+Daksh Goti
+GitHub: @dakshgoti14
+Feel free to connect or contribute!
+
+yaml
+Copy
+Edit
+
+---
+
+Let me know if you'd like to:
+
+- Add a demo video or GIF  
+- Add badges (e.g. Python version, license)  
+- Auto-deploy to Streamlit Cloud with a one-click badge
+
+
+
+
+
+
