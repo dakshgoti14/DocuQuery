@@ -134,23 +134,23 @@ git push origin main
 
 ## 📄 License
    - MIT License – free to use and modify for personal or commercial use.
+----
 
 ## 👨‍💻 Author
-Daksh Goti
-GitHub: @dakshgoti14
-Feel free to connect or contribute!
 
-yaml
-Copy
-Edit
+**Daksh Goti**  
+GitHub: [@dakshgoti14](https://github.com/dakshgoti14)
+
+Feel free to connect or contribute!
 
 ---
 
 Let me know if you'd like to:
 
-- Add a demo video or GIF  
-- Add badges (e.g. Python version, license)  
-- Auto-deploy to Streamlit Cloud with a one-click badge
+- 🎥 Add a **demo video** or **GIF** of the project in action  
+- 🏷️ Add **badges** (e.g., Python version, license, framework)  
+- 🚀 Add a **"Deploy to Streamlit"** one-click button for easier deployment  
+
 
 
 
