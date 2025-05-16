@@ -100,7 +100,7 @@ Follow these simple steps to deploy your project using [Streamlit Cloud](https:/
   Ensure your `.gitignore` file contains the following line:
   ```bash
   venv/
-
+```
 
 🛠 Tips for GitHub
 If you get this error:
