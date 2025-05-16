@@ -36,14 +36,17 @@ DocuQuery is an AI-powered chatbot that allows users to interact with documents 
 ```bash
 git clone https://github.com/dakshgoti14/DocuQuery.git
 cd DocuQuery
-2. Create & Activate Virtual Environment
-bash
+```
+### 2. Create & Activate Virtual Environment
+```bash
 Copy
 Edit
 python3 -m venv venv
 source venv/bin/activate  # Windows: venv\Scripts\activate
-3. Install Dependencies
-bash
+```
+
+### 3. Install Dependencies
+```bash
 Copy
 Edit
 pip install -r requirements.txt
