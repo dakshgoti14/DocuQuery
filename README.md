@@ -93,7 +93,7 @@ Follow these simple steps to deploy your project using [Streamlit Cloud](https:/
 4. **Click "Deploy"**
 
 
-⚠️ **Important Notes:** Do NOT commit your **venv/** folder. It should be excluded via **.gitignore**.
+⚠️ **Important Notes:** Do NOT commit your `venv/` folder. It should be excluded via `.gitignore`.
 
 ----
 
