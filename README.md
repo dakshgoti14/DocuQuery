@@ -69,7 +69,7 @@ DocuQuery/
 │   └── auth.py                 # Auth functions
 ```
 ### 🌐 Deployment Guide
-Deploy to Streamlit Cloud (Free)
+#### Deploy to Streamlit Cloud (Free)
 Push your project to GitHub
 
 Go to https://streamlit.io/cloud
