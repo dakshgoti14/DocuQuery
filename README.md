@@ -52,7 +52,7 @@ pip install -r requirements.txt
 ```bash
 streamlit run app.py
 ```
----
+----
 
 ## 📁 Project Structure
 
@@ -100,9 +100,9 @@ Follow these simple steps to deploy your project using [Streamlit Cloud](https:/
   ```bash
   venv/
 ```
----
+----
 
-🛠 Tips for GitHub
+## 🛠 Tips for GitHub
 If you get this error:
 
 arduino
