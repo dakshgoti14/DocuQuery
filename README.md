@@ -92,7 +92,6 @@ Follow these simple steps to deploy your project using [Streamlit Cloud](https:/
 
 4. **Click "Deploy"**
 
----
 
 ⚠️ **Important Notes:**
 
@@ -101,6 +100,7 @@ Follow these simple steps to deploy your project using [Streamlit Cloud](https:/
   ```bash
   venv/
 ```
+---
 
 🛠 Tips for GitHub
 If you get this error:
