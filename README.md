@@ -99,26 +99,22 @@ Follow these simple steps to deploy your project using [Streamlit Cloud](https:/
 
 ## 🛠 Tips for GitHub
 If you get this error:
+`remote: error: File ... exceeds GitHub’s file size limit`
 
-arduino
-Copy
-Edit
-remote: error: File ... exceeds GitHub’s file size limit
-Run:
+**Run:**
 
-bash
-Copy
-Edit
+```
 git rm -r --cached venv/
 echo "venv/" >> .gitignore
-Then recommit and push:
-
-bash
-Copy
-Edit
+```
+**Then recommit and push:**
+```bash
 git add .
 git commit -m "Clean up venv"
 git push origin main
+```
+----
+
 📌 Future Roadmap
 🌍 OAuth or Google login
 
