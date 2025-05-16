@@ -54,7 +54,8 @@ streamlit run app.py
 ```
 ---
 
-### 📁 Project Structure
+## 📁 Project Structure
+
 ```bash
 DocuQuery/
 │
@@ -72,15 +73,34 @@ DocuQuery/
 ```
 ----
 
-### 🌐 Deployment Guide
-#### Deploy to Streamlit Cloud (Free)
-  - 1. Push your project to GitHub
-  - 2. Go to https://streamlit.io/cloud
-  - 3. Click "New App" → Select your GitHub repo and branch
-  - 4. Set app.py as the entry file
-  - 5. Click Deploy
+## 🌐 Deployment Guide
 
-⚠️ Important: Do NOT commit your venv/ folder. It should be excluded via .gitignore.
+### 🚀 Deploy to Streamlit Cloud (Free)
+
+Follow these simple steps to deploy your project using [Streamlit Cloud](https://streamlit.io/cloud):
+
+1. **Push your project to GitHub**  
+   Make sure your latest code is on GitHub in a public or private repository.
+
+2. **Go to [Streamlit Cloud](https://streamlit.io/cloud)**  
+   Log in with your GitHub account.
+
+3. **Click "New App"**  
+   - Select your GitHub **repository**
+   - Choose the correct **branch**
+   - Set **`app.py`** as the entry file
+
+4. **Click "Deploy"**
+
+---
+
+⚠️ **Important Notes:**
+
+- **Do NOT commit your `venv/` folder**  
+  Ensure your `.gitignore` file contains the following line:
+  ```bash
+  venv/
+
 
 🛠 Tips for GitHub
 If you get this error:
