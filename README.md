@@ -115,16 +115,16 @@ git push origin main
 ```
 ----
 
-📌 Future Roadmap
-🌍 OAuth or Google login
+## 📌 Future Roadmap
+   - 🌍 OAuth or Google login
 
-🧾 Multi-document support
+   - 🧾 Multi-document support
 
-📤 Export chat history
+   - 📤 Export chat history
 
-🧠 Add support for OpenAI, Claude, Mistral
+   - 🧠 Add support for OpenAI, Claude, Mistral
 
-🖼️ Document content visualization
+   - 🖼️ Document content visualization
 
 🤝 Contributing
 Fork this repo
