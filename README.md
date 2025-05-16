@@ -117,30 +117,25 @@ git push origin main
 
 ## 📌 Future Roadmap
    - 🌍 OAuth or Google login
-
    - 🧾 Multi-document support
-
    - 📤 Export chat history
-
    - 🧠 Add support for OpenAI, Claude, Mistral
-
    - 🖼️ Document content visualization
 
-🤝 Contributing
-Fork this repo
+----
 
-Create a new branch (git checkout -b feature-name)
+## 🤝 Contributing
+   **1.** Fork this repo
+   **2.** Create a new branch (git checkout -b feature-name)
+   **3.** Make your changes
+   **4.** Commit and push (git push origin feature-name)
+   **5.** Open a pull request
+----
 
-Make your changes
+## 📄 License
+   - MIT License – free to use and modify for personal or commercial use.
 
-Commit and push (git push origin feature-name)
-
-Open a pull request
-
-📄 License
-MIT License – free to use and modify for personal or commercial use.
-
-👨‍💻 Author
+## 👨‍💻 Author
 Daksh Goti
 GitHub: @dakshgoti14
 Feel free to connect or contribute!
